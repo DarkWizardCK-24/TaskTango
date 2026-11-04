@@ -22,3 +22,14 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# next / firebase
+.next
+out
+.env*
+!.env.example
+.firebase
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+next-env.d.ts
