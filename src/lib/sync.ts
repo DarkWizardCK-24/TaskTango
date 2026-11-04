@@ -151,8 +151,6 @@ export function mergeRemote(local: Task[], synced: SyncedMap, remote: RemoteTask
   return { tasks, synced: nextSynced }
 }
 
-/* ----------------------------- meta document ----------------------------- */
-
 export interface MetaState {
   lists: TaskList[]
   sort: SortKey

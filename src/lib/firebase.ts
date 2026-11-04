@@ -21,7 +21,7 @@ export interface Fb {
 
 let cached: Fb | null = null
 
-/** Root of every TaskTango document. Nothing outside this path is ever read or written. */
+/** Root of every Task Tango document. Nothing outside this path is ever read or written. */
 export const ROOT = ['apps', 'tasktango'] as const
 
 export function getFirebase(): Fb {

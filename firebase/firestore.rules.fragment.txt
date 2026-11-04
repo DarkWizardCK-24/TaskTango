@@ -1,4 +1,4 @@
-    // ---- TaskTango (everything lives under apps/tasktango/) --------------------------------
+    // Everything lives under apps/tasktango/
     function tt_owner(uid) {
       return request.auth != null && request.auth.uid == uid;
     }
@@ -43,4 +43,3 @@
       allow read, delete: if tt_owner(uid);
       allow create, update: if tt_owner(uid) && tt_meta_ok(request.resource.data);
     }
-    // ---- end TaskTango ---------------------------------------------------------------------

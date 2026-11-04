@@ -1,4 +1,4 @@
-/* TaskTango service worker: caches the static app shell only.
+/* Task Tango service worker: caches the static app shell only.
    User data lives in localStorage and no dynamic or cross-origin response is ever cached. */
 const CACHE = 'tasktango-shell-v2'
 const SHELL = ['/', '/manifest.webmanifest', '/icon.svg', '/icons/icon-192.png', '/icons/icon-512.png']

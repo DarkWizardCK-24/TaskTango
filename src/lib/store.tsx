@@ -191,7 +191,6 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     [],
   )
 
-  // Theme.
   useEffect(() => {
     applyTheme(prefs.theme)
     if (prefs.theme !== 'system') return
