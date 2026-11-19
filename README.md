@@ -10,6 +10,8 @@ Next.js · React · TypeScript · Tailwind CSS 4 · Firebase Auth · Firestore �
 
 </div>
 
+<p align="center"><img src="docs/thumbnails/tasktango-thumb-1-hero.png" alt="Task Tango: tasks with rhythm. Natural quick add, subtasks and streaks, real-time sync, works offline." width="900"></p>
+
 Task Tango is a warm, focused task manager that feels like a native app on your phone and a polished workspace on your desktop. Type a task the way you would say it and dates, priorities and lists are filled in for you. Plan your day, break work into subtasks, drag things into the order you want and watch your streak grow. Use it instantly as a guest, or create a free account to keep your tasks in sync across every device in real time. Your tasks are private to you, work offline and can be installed like an app.
 
 This is a ground-up rebuild of the original Task Tango (iTask) todo app. Tasks saved by the old version are carried over automatically the first time you open the new one.
